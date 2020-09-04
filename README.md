@@ -3,6 +3,11 @@
 - Document: https://docs.google.com/spreadsheets/d/1RfHvwMz-LR3OPCxyE00eDcF-quLuArUg-yF7sV7dZtU
 
 # Changelogs
+## Version 0.4
+- Development environment: Joomla 3.9.16, PHP 7.2.3, MySQL 5.7.26
+- Changes:
+    - Add server update
+
 ## Version 0.3
 - Development environment: Joomla 3.9.16, PHP 7.2.3, MySQL 5.7.26
 - Changes:

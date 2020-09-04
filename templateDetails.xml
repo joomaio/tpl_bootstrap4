@@ -10,6 +10,9 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>TPL_BOOTSTRAP4_XML_DESCRIPTION</description>
 	<scriptfile>installer.php</scriptfile>
+	<updateservers>
+		<server type="extension" name="tpl_bootstrap4" priority="1">http://www.update.joomaio.org/tpl_bootstrap4/tpl_bootstrap4_update.xml</server>
+	</updateservers>
 	<files>
 		<filename>component.php</filename>
 		<filename>error.php</filename>
