@@ -29,7 +29,7 @@ $assocParam = (JLanguageAssociations::isEnabled() && $params->get('show_associat
 	<h2 class="blog-post-title"><a href="<?php echo JRoute::_(ContentHelperRoute::getArticleRoute($this->item->slug, $this->item->catid, $this->item->language)); ?>"><?php echo $this->item->title; ?></a></h2>
 
 	<p class="blog-post-meta"><?php echo JText::_('TPL_BOOTSTRAP4_POSTED_ON').' '.date("M d, Y", strtotime($this->item->publish_up)); ?>
-	<?php echo JText::_('TPL_BOOTSTRAP4_BY'); ?> <a href="<?php echo JRoute::_('index.php?option=com_author&author_id=' . $this->item->created_by, false); ?>"><?php echo $this->item->author; ?></a></p>
+	<?php echo JText::_('TPL_BOOTSTRAP4_BY'); ?> <?php echo $this->item->author; ?></p>
 
 	<?php if ($canEdit || $params->get('show_print_icon') || $params->get('show_email_icon')) : ?>
 		<?php echo JLayoutHelper::render('joomla.content.icons', array('params' => $params, 'item' => $this->item, 'print' => false)); ?>

@@ -2,7 +2,7 @@
 <!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/2.5/template-install.dtd">
 <extension version="3.1" type="template" client="site" method="upgrade">
 	<name>bootstrap4</name>
-	<version>0.4</version>
+	<version>0.5</version>
 	<creationDate>11/09/2019</creationDate>
 	<author>Joomaio inc.</author>
 	<authorEmail>product@joomaio.com</authorEmail>

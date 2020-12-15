@@ -53,7 +53,7 @@ JHtml::_('behavior.caption');
 			<h1 class="mt-4" itemprop="headline">
 				<?php echo $this->escape($this->item->title); ?>
 			</h1>
-			<p class="lead"><?php echo JText::_('TPL_BOOTSTRAP4_BY'); ?> <a href="<?php echo JRoute::_('index.php?option=com_author&author_id=' . $this->item->created_by, false); ?>"><?php echo $this->item->author; ?></a></p>
+			<p class="lead"><?php echo JText::_('TPL_BOOTSTRAP4_BY'); ?> <?php echo $this->item->author; ?></p>
 		<?php endif; ?>
 		<hr>
 		<p><?php echo JText::_('TPL_BOOTSTRAP4_POSTED_ON').' '.date("M d, Y h:i A", strtotime($this->item->publish_up)); ?></p>

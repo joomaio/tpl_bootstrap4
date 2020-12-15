@@ -3,6 +3,11 @@
 - Document: https://docs.google.com/spreadsheets/d/1RfHvwMz-LR3OPCxyE00eDcF-quLuArUg-yF7sV7dZtU
 
 # Changelogs
+##Version 0.5
+- Development environment: Joomla 3.9.16, PHP 7.2.3, MySQL 5.7.26
+- Changes:
+    - Remove link to author below every article, just show author's name
+
 ## Version 0.4
 - Development environment: Joomla 3.9.16, PHP 7.2.3, MySQL 5.7.26
 - Changes:
