@@ -87,6 +87,6 @@ $assocParam = (JLanguageAssociations::isEnabled() && $params->get('show_associat
 
 	<div class="card-footer text-muted">
 		<?php echo JText::_('TPL_BOOTSTRAP4_POSTED_ON').' '.date("M d, Y", strtotime($this->item->publish_up)); ?>
-		<?php echo JText::_('TPL_BOOTSTRAP4_BY'); ?> <a href="<?php echo JRoute::_('index.php?option=com_author&author_id=' . $this->item->created_by, false); ?>"><?php echo $this->item->author; ?></a>
+		<?php echo JText::_('TPL_BOOTSTRAP4_BY'); ?> <?php echo $this->item->author; ?>
 	</div>
 </div>
